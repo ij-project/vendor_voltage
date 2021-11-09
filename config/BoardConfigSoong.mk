@@ -31,6 +31,8 @@ SOONG_CONFIG_voltageGlobalVars += \
     bootloader_message_offset \
     aapt_version_code \
     additional_gralloc_10_usage_bits \
+    camera_needs_client_info_lib \
+    camera_needs_client_info_lib_oplus \
     camera_override_format_from_reserved \
     disable_bluetooth_le_read_buffer_size_v2 \
     disable_bluetooth_le_set_host_feature \
@@ -90,6 +92,8 @@ SOONG_CONFIG_voltageQcomVars_supports_extended_compress_format := $(AUDIO_FEATUR
 SOONG_CONFIG_voltageQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_voltageGlobalVars_uses_legacy_fd_fbdev := $(TARGET_USES_LEGACY_FD_FBDEV)
 SOONG_CONFIG_voltageQcomVars_no_fm_firmware := $(TARGET_QCOM_NO_FM_FIRMWARE)
+SOONG_CONFIG_voltageGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
+SOONG_CONFIG_voltageGlobalVars_camera_needs_client_info_lib_oplus := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
