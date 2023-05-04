@@ -19,4 +19,7 @@
 <resources>
     <bool name="def_wifi_on">true</bool>
     <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
+
+    <!-- This is disabled by default, but turned on in SetupWizard -->
+    <bool name="assisted_gps_enabled">false</bool>
 </resources>
