@@ -39,6 +39,7 @@ SOONG_CONFIG_voltageGlobalVars += \
     gralloc_handle_has_ubwcp_format \
     needs_netd_direct_connect_rule \
     target_alternative_futex_waiters \
+    target_camera_package_name \
     target_health_charging_control_charging_path \
     target_health_charging_control_charging_enabled \
     target_health_charging_control_charging_disabled \
@@ -125,6 +126,8 @@ SOONG_CONFIG_voltageGlobalVars_disable_bluetooth_le_set_host_feature := $(TARGET
 SOONG_CONFIG_voltageGlobalVars_target_trust_usb_control_path := $(TARGET_TRUST_USB_CONTROL_PATH)
 SOONG_CONFIG_voltageGlobalVars_target_trust_usb_control_enable := $(TARGET_TRUST_USB_CONTROL_ENABLE)
 SOONG_CONFIG_voltageGlobalVars_target_trust_usb_control_disable := $(TARGET_TRUST_USB_CONTROL_DISABLE)
+SOONG_CONFIG_voltageGlobalVars_target_camera_package_name := $(TARGET_CAMERA_PACKAGE_NAME)
+
 ifneq ($(filter $(QSSI_SUPPORTED_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)
 SOONG_CONFIG_voltageQcomVars_qcom_display_headers_namespace := vendor/qcom/opensource/commonsys-intf/display
 else
