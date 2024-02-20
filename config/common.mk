@@ -197,6 +197,11 @@ PRODUCT_PACKAGES += \
 # RRO
 include vendor/voltage/config/rro_overlays.mk
 
+# SetupWizard
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.theme=glif_v4 \
+    setupwizard.feature.day_night_mode_enabled=true
+
 # Versioning
 include vendor/voltage/config/version.mk
 
