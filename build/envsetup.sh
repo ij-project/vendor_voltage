@@ -82,7 +82,7 @@ function breakfast()
                 variant="userdebug"
             fi
 
-            lunch voltage_$target-$variant
+            lunch voltage_$target-ap1a-$variant
         fi
     fi
     return $?
