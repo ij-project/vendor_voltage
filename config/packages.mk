@@ -1,27 +1,12 @@
 # VoltageOS packages
 PRODUCT_PACKAGES += \
-    Covers \
-    Eleven \
-    Etar \
     ThemePicker \
     ThemesStub \
-    BatteryStatsViewer \
-    GameSpace \
-    OmniJaws \
-    WeatherIcons \
-    SetupWizard \
-    Seedvault \
-    ParallelSpace \
-    LogViewer
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
 	Updater
 endif
-
-# Browser
-PRODUCT_PACKAGES += \
-    Jellyfish
 
 # BtHelper
 #PRODUCT_PACKAGES += \
