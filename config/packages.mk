@@ -1,5 +1,7 @@
 # VoltageOS packages
 PRODUCT_PACKAGES += \
+    Eleven \
+    Etar \
     ThemePicker \
     ThemesStub \
 
@@ -11,12 +13,6 @@ endif
 # BtHelper
 #PRODUCT_PACKAGES += \
 #    BtHelper
-
-# VoltageOS UDFPS animations
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    UdfpsAnimations
-endif
 
 # Extra tools in Voltage
 PRODUCT_PACKAGES += \
