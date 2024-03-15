@@ -4,6 +4,8 @@ PRODUCT_PACKAGES += \
     Etar \
     ThemePicker \
     ThemesStub \
+    GmsCompat \
+    Apps \
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
