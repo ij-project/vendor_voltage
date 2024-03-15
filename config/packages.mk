@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
     GmsCompat \
     Apps \
     SetupWizard2 \
+    Jellyfish \
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
