@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     ThemesStub \
     GmsCompat \
     Apps \
+    SetupWizard2 \
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
