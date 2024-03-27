@@ -31,4 +31,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fsck.exfat \
     mke2fs \
-    mkfs.exfat \
+    mkfs.exfat
