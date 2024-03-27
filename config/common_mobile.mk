@@ -1,9 +1,10 @@
 # Inherit common mobile Voltage stuff
 $(call inherit-product, vendor/voltage/config/common.mk)
 
-# AOSP packages
+# Apps
 PRODUCT_PACKAGES += \
     ExactCalculator \
+    Glimpse
 
 # Charger
 PRODUCT_PACKAGES += \
