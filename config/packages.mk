@@ -5,10 +5,11 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub \
     GmsCompat \
+    GameSpace \
     Apps \
     SetupWizard2 \
     Jellyfish \
-    LogViewer
+    LogViewer 
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
