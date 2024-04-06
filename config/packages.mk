@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
     Apps \
     SetupWizard2 \
     Jellyfish \
+    LogViewer
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
