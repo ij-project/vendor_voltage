@@ -10,7 +10,8 @@ PRODUCT_PACKAGES += \
     SetupWizard2 \
     Jellyfish \
     LogViewer \
-    OmniJaws
+    OmniJaws \
+    Updater
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
