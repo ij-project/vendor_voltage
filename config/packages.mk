@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     Apps \
     SetupWizard2 \
     Jellyfish \
-    LogViewer 
+    LogViewer \
+    OmniJaws
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
