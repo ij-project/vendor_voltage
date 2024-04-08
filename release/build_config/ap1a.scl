@@ -1,4 +1,5 @@
-# Copyright (C) 2024 TheParasiteProject
+#
+# Copyright (C) 2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,13 +12,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
- 
-TARGET_RELEASE := ap1a
 
-# Get the directory for this file, and use that instead of a fixed path.
-local_dir := $(dir $(lastword $(MAKEFILE_LIST)))
 
-# Attach the flag value definitions to the various release configurations.
-$(call declare-release-config, ap1a, $(local_dir)build_config/ap1a.scl)
+load("//build/make/core/release_config.scl", "value")
 
-local_dir :=
+values = [
+    # keep-sorted start numeric=yes
+    value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-lineage-ap1a"),
+    # keep-sorted end
+]
