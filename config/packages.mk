@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
     Jellyfish \
     LogViewer \
     OmniJaws \
-    Updater
+    ParallelSpace \
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
