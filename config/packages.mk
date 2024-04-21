@@ -1,7 +1,6 @@
 # VoltageOS packages
 PRODUCT_PACKAGES += \
     Covers \
-    Eleven \
     Etar \
     ThemePicker \
     ThemesStub \
@@ -13,6 +12,7 @@ PRODUCT_PACKAGES += \
     LogViewer \
     OmniJaws \
     ParallelSpace \
+    Gramophone
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
