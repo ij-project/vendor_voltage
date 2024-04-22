@@ -21,8 +21,8 @@ ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
 endif
 
 # BtHelper
-#PRODUCT_PACKAGES += \
-#    BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
 
 # Extra tools in Voltage
 PRODUCT_PACKAGES += \

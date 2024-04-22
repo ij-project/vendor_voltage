@@ -193,10 +193,6 @@ PRODUCT_PACKAGES += \
     AndroidSnowPaintDropTheme \
     AndroidEspressoTheme
 
-# BtHelper
-PRODUCT_PACKAGES += \
-    BtHelper
-
 # RRO
 include vendor/voltage/config/rro_overlays.mk
 
