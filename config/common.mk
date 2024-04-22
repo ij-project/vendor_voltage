@@ -189,9 +189,9 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 # Themes
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
-#    AndroidVividTheme \
-#    AndroidSnowPaintDropTheme \
-#    AndroidEspressoTheme
+    AndroidVividTheme \
+    AndroidSnowPaintDropTheme \
+    AndroidEspressoTheme
 
 # BtHelper
 PRODUCT_PACKAGES += \

@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     LogViewer \
     OmniJaws \
     ParallelSpace \
-    Gramophone
+    Gramophone \
+    Seedvault
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
