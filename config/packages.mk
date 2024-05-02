@@ -13,7 +13,8 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     ParallelSpace \
     Gramophone \
-    Seedvault
+    Seedvault \
+    Datura
 
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
