@@ -7,7 +7,7 @@ PRODUCT_PACKAGES += \
     GmsCompat \
     GameSpace \
     Apps \
-    SetupWizard \
+    VoltageSetupWizard \
     Jellyfish \
     LogViewer \
     OmniJaws \
