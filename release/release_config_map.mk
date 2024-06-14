@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
  
-TARGET_RELEASE := ap1a
+TARGET_RELEASE := ap2a
 
 # Get the directory for this file, and use that instead of a fixed path.
 local_dir := $(dir $(lastword $(MAKEFILE_LIST)))
 
 # Attach the flag value definitions to the various release configurations.
-$(call declare-release-config, ap1a, $(local_dir)build_config/ap1a.scl)
+$(call declare-release-config, ap2a, $(local_dir)build_config/ap2a.scl)
 
 local_dir :=
