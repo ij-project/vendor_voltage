@@ -127,6 +127,7 @@ $(call enforce-product-packages-exist-internal,$(wildcard device/*/$(VOLTAGE_BUI
 # but also allow explicit overriding for testing and development.
 SYSTEM_OPTIMIZE_JAVA ?= true
 SYSTEMUI_OPTIMIZE_JAVA ?= true
+FULL_SYSTEM_OPTIMIZE_JAVA ?= true
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
