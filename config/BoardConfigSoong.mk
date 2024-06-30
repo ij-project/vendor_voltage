@@ -34,8 +34,9 @@ SOONG_CONFIG_voltageGlobalVars += \
     camera_override_format_from_reserved \
     disable_bluetooth_le_read_buffer_size_v2 \
     disable_bluetooth_le_set_host_feature \
-    gralloc_handle_has_reserved_size \
     gralloc_handle_has_custom_content_md_reserved_size \
+    gralloc_handle_has_reserved_size \
+    gralloc_handle_has_ubwcp_format \
     needs_netd_direct_connect_rule \
     target_alternative_futex_waiters \
     target_health_charging_control_charging_path \
