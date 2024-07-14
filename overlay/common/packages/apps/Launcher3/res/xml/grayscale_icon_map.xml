@@ -626,6 +626,7 @@
     <icon drawable="@drawable/camera" package="com.android.hasli.lmc82r7" />
     <icon drawable="@drawable/camera" package="com.android.lmc82" />
     <icon drawable="@drawable/camera" package="com.asus.camera" />
+    <icon drawable="@drawable/camera" package="com.camera.lmc83r1" />
     <icon drawable="@drawable/camera" package="com.camera.lmc84r7" />
     <icon drawable="@drawable/camera" package="com.camera.lmc84r9" />
     <icon drawable="@drawable/camera" package="com.footej.camera2" />
@@ -667,6 +668,7 @@
     <icon drawable="@drawable/camera" package="com.honor.camera" />
     <icon drawable="@drawable/camera" package="com.huawei.camera" />
     <icon drawable="@drawable/camera" package="com.lge.camera" />
+    <icon drawable="@drawable/camera" package="com.meitu.meiyancamera" />
     <icon drawable="@drawable/camera" package="com.motorola.camera2" />
     <icon drawable="@drawable/camera" package="com.motorola.camera3" />
     <icon drawable="@drawable/camera" package="com.motorola.cameraone" />
