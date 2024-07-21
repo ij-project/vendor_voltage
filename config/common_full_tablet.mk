@@ -5,10 +5,9 @@ $(call inherit-product, vendor/voltage/config/common_mobile_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
-    androidx.window.extensions \
     LatinIME
 
-# Include LatinIME dictionaries
+# Include Lineage VoltageOS dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/voltage/overlay/dictionaries
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay/dictionaries
 
@@ -16,4 +15,4 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay/dictionaries
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.settings.large_screen_opt.enabled=true
 
-$(call inherit-product, vendor/voltage/config/wifionly.mk)
+$(call inherit-product, vendor/voltage/config/telephony.mk)

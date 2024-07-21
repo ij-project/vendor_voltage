@@ -1,5 +1,5 @@
-# Inherit full common Voltage stuff
-$(call inherit-product, vendor/voltage/config/common_full.mk)
+# Inherit mobile full common Voltage stuff
+$(call inherit-product, vendor/voltage/config/common_mobile_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
