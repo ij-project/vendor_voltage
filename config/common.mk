@@ -170,7 +170,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 -include vendor/voltage/config/partner_gms.mk
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay
-DEVICE_PACKAGE_OVERLAYS += vendor/voltage/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/voltage/overlay/common \
+    vendor/voltage/overlay/no-rro
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
