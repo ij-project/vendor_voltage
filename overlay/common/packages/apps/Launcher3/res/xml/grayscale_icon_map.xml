@@ -880,6 +880,8 @@
     <icon drawable="@drawable/browser" package="com.android.browser" />
     <icon drawable="@drawable/browser" package="de.baumann.browser" />
     <icon drawable="@drawable/browser" package="foundation.e.browser" />
+    <icon drawable="@drawable/browser" package="com.cookiegames.smartcookie" />
+    <icon drawable="@drawable/browser" package="com.cookiejarapps.smartcookiebeta" />
     <icon drawable="@drawable/brubank" package="com.brubank" />
     <icon drawable="@drawable/brush_teeth_reminder" package="com.tskn.toothreminder" />
     <icon drawable="@drawable/bsd_brawl" package="bsd.suitcase.release" />
@@ -1061,19 +1063,11 @@
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEng" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEng2" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR13F2" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR14" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR15" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR16" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR17" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR18" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraEngR18F1" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraGood" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMC" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMC88" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMCR11" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMCR13" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMCR17" />
-    <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraLMCR18" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraPixelX" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCameraTigr" />
     <icon drawable="@drawable/camera" package="com.google.android.GoogleCamerax" />
@@ -1113,6 +1107,7 @@
     <icon drawable="@drawable/camera" package="com.sonyericsson.android.camera" />
     <icon drawable="@drawable/camera" package="com.tcl.camera" />
     <icon drawable="@drawable/camera" package="com.transsion.camera" />
+    <icon drawable="@drawable/camera" package="com.voltage.flash" />
     <icon drawable="@drawable/camera" package="com.wingos.wingcamera" />
     <icon drawable="@drawable/camera" package="foundation.e.camera" />
     <icon drawable="@drawable/camera" package="net.sourceforge.opencamera" />
@@ -1122,7 +1117,6 @@
     <icon drawable="@drawable/camera" package="org.derpfest.flash" />
     <icon drawable="@drawable/camera" package="org.fossify.camera" />
     <icon drawable="@drawable/camera" package="org.lineageos.aperture" />
-    <icon drawable="@drawable/camera" package="com.voltage.flash" />
     <icon drawable="@drawable/camera" package="org.lineageos.selfie" />
     <icon drawable="@drawable/camera" package="org.lineageos.snap" />
     <icon drawable="@drawable/camera360" package="vStudio.Android.Camera360" />
@@ -3424,10 +3418,9 @@
     <icon drawable="@drawable/line_music" package="jp.linecorp.linemusic.android" />
     <icon drawable="@drawable/line_official_account" package="com.linecorp.lineoa" />
     <icon drawable="@drawable/lineageos_jelly_browser" package="org.droidtr.jelly" />
+    <icon drawable="@drawable/lineageos_jelly_browser" package="org.eu.droid_ng.jellyfish" />
     <icon drawable="@drawable/lineageos_jelly_browser" package="org.lineageos.jelly" />
     <icon drawable="@drawable/lineageos_music" package="org.lineageos.eleven" />
-    <icon drawable="@drawable/browser" package="com.cookiegames.smartcookie" />
-    <icon drawable="@drawable/browser" package="com.cookiejarapps.smartcookiebeta" />
     <icon drawable="@drawable/linebit_icons" package="com.edzondm.linebit" />
     <icon drawable="@drawable/linex_black_icons" package="com.jndapp.linex.black.iconpack" />
     <icon drawable="@drawable/linex_icons" package="com.jndapp.line.x.iconpack" />
@@ -3482,6 +3475,7 @@
     <icon drawable="@drawable/lmc_84" package="com.google.android.GoogleCameraEngR18F1" />
     <icon drawable="@drawable/lmc_84" package="com.google.android.GoogleCameraLMCR12" />
     <icon drawable="@drawable/lmc_84" package="com.google.android.GoogleCameraLMCR17" />
+    <icon drawable="@drawable/lmc_84" package="com.google.android.GoogleCameraLMCR18" />
     <icon drawable="@drawable/lmc_84" package="com.google.android.GoogleCameraR18" />
     <icon drawable="@drawable/lnreader" package="com.rajarsheechatterjee.LNReader" />
     <icon drawable="@drawable/localmonero" package="co.localmonero.app" />
