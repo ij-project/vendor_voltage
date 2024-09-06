@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
 ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
     PRODUCT_PACKAGES += \
 	Updater
-include vendor/voltage-priv/keys/keys.mk
 endif
 
 ifneq ($(PRODUCT_NO_CAMERA),true)
