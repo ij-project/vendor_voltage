@@ -8,9 +8,11 @@ PRODUCT_PACKAGES += \
     GameSpace \
     Apps \
     VoltageSetupWizard \
+    Jellyfish \
     LogViewer \
     OmniJaws \
     ParallelSpace \
+    Gramophone \
     Seedvault \
     Datura \
     ExactCalculator \
