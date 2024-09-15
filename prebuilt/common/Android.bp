@@ -11,3 +11,26 @@ prebuilt_etc_xml {
     src: "etc/sensitive_pn.xml",
     schema: ":spn-schema",
 }
+
+android_app_import {
+    name: "Gramophone",
+    apk: "Gramophone/Gramophone.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+android_app_import {
+    name: "Jellyfish",
+    apk: "Jellyfish/Jellyfish.apk",
+    certificate: "platform",
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
