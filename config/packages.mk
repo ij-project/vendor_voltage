@@ -18,7 +18,9 @@ PRODUCT_PACKAGES += \
     Datura \
     ExactCalculator \
     Glimpse \
-    talkback
+    talkback \
+    LMOFreeform \
+    LMOFreeformSidebar \
 
 ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
     PRODUCT_PACKAGES += \
