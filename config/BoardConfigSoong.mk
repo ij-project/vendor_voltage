@@ -65,6 +65,7 @@ SOONG_CONFIG_voltageNvidiaVars += \
 
 SOONG_CONFIG_NAMESPACES += voltageQcomVars
 SOONG_CONFIG_voltageQcomVars += \
+    no_fm_firmware \
     qti_vibrator_effect_lib \
     qti_vibrator_use_effect_stream \
     supports_extended_compress_format \
@@ -88,6 +89,7 @@ SOONG_CONFIG_voltageQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBR
 SOONG_CONFIG_voltageQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_voltageQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_voltageGlobalVars_uses_legacy_fd_fbdev := $(TARGET_USES_LEGACY_FD_FBDEV)
+SOONG_CONFIG_voltageQcomVars_no_fm_firmware := $(TARGET_QCOM_NO_FM_FIRMWARE)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
@@ -142,3 +144,18 @@ else
 SOONG_CONFIG_voltageQcomVars_qcom_display_headers_namespace := $(QCOM_SOONG_NAMESPACE)/display
 endif
 SOONG_CONFIG_voltageQcomVars_qti_vibrator_effect_lib := $(TARGET_QTI_VIBRATOR_EFFECT_LIB)
+
+# libfmjni
+ifeq ($(BOARD_HAVE_QCOM_FM),true)
+    PRODUCT_SOONG_NAMESPACES += \
+        vendor/qcom/opensource/libfmjni
+else ifeq ($(BOARD_HAVE_BCM_FM),true)
+    PRODUCT_SOONG_NAMESPACES += \
+        hardware/broadcom/fm
+else ifeq ($(BOARD_HAVE_SLSI_FM),true)
+    PRODUCT_SOONG_NAMESPACES += \
+        hardware/samsung_slsi/fm
+else ifneq ($(BOARD_HAVE_MTK_FM),true)
+    PRODUCT_SOONG_NAMESPACES += \
+        packages/apps/FMRadio/jni/fmr
+endif
