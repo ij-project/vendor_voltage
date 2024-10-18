@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     Covers \
     Etar \
     ThemePicker \
+    AvatarPicker \
     ThemesStub \
     GmsCompat \
     GameSpace \
