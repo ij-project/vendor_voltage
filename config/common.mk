@@ -232,8 +232,8 @@ $(call inherit-product-if-exists, vendor/SystemUIClocks/product.mk)
 # Audio
 $(call inherit-product, vendor/voltage/audio/audio.mk)
 
-# # Icon packs
-$(call inherit-product, vendor/voltage/themes/icon_packs/icon_packs.mk)
+# Icon packs
+#$(call inherit-product, vendor/voltage/themes/icon_packs/icon_packs.mk)
 
 # Include extra packages
 include vendor/voltage/config/packages.mk
