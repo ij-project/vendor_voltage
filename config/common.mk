@@ -170,7 +170,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/voltage/config/partner_gms.mk
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay/no-rro
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/voltage/overlay/common \
     vendor/voltage/overlay/no-rro
