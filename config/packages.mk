@@ -19,10 +19,15 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Glimpse
 
-ifeq ($(VOLTAGE_BUILD_TYPE), OFFICIAL)
+ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
     PRODUCT_PACKAGES += \
-	Updater
+        Updater
+endif
+
+ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
 include vendor/voltage-priv/keys/keys.mk
+else
+-include vendor/voltage-priv/keys/keys.mk
 endif
 
 ifneq ($(PRODUCT_NO_CAMERA),true)
