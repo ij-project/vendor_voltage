@@ -17,7 +17,8 @@ PRODUCT_PACKAGES += \
     Seedvault \
     Datura \
     ExactCalculator \
-    Glimpse
+    Glimpse \
+    talkback
 
 ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
     PRODUCT_PACKAGES += \
