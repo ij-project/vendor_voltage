@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     talkback \
     LMOFreeform \
     LMOFreeformSidebar \
+    CustomDoze
 
 ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
     PRODUCT_PACKAGES += \
