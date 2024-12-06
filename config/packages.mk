@@ -1,7 +1,6 @@
 # VoltageOS packages
 PRODUCT_PACKAGES += \
     Covers \
-    Etar \
     ThemePicker \
     AvatarPicker \
     ThemesStub \
@@ -9,16 +8,14 @@ PRODUCT_PACKAGES += \
     GameSpace \
     Apps \
     VoltageSetupWizard \
-    Jellyfish \
     LogViewer \
     OmniJaws \
     ParallelSpace \
-    Gramophone \
     Seedvault \
     Datura \
     ExactCalculator \
+    Aperture \
     Glimpse \
-    talkback \
     LMOFreeform \
     LMOFreeformSidebar \
     CustomDoze
@@ -26,11 +23,6 @@ PRODUCT_PACKAGES += \
 ifeq ($(VOLTAGE_BUILD_TYPE),OFFICIAL)
     PRODUCT_PACKAGES += \
         Updater
-endif
-
-ifneq ($(PRODUCT_NO_CAMERA),true)
-PRODUCT_PACKAGES += \
-    Aperture
 endif
 
 # BtHelper
@@ -55,6 +47,5 @@ PRODUCT_PACKAGES += \
 # VoltageOS UDFPS animations
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
-    UdfpsIcons \
-    UdfpsAnimations
+    UdfpsIcons
 endif
