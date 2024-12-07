@@ -47,5 +47,6 @@ PRODUCT_PACKAGES += \
 # VoltageOS UDFPS animations
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
-    UdfpsIcons
+    UdfpsIcons \
+    UdfpsAnimations
 endif
